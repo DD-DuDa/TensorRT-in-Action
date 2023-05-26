@@ -33,3 +33,11 @@ docker run -it --gpus all -p 8900:8900 --name trt-action --shm-size 32G --ulimit
 - `/bin/bash`：在容器内执行**`/bin/bash`**命令，以便在容器中启动一个交互式的Bash终端会话。这将成为容器的入口点。
 
 若是第一次运行该命令，将会自动下载 Docker 镜像
+
+**常用指令**
+```bash
+# 开启容器
+docker start trt-action
+# 进入容器命令窗口
+docker exec -it trt-action /bin/bash
+```
