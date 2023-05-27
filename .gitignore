@@ -3,7 +3,7 @@
 *.engine
 *.onnx
 *.plan
-
+*.cache
 # 忽略文件夹
 __pycache__
 data/MNIST
