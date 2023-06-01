@@ -4,6 +4,9 @@
 *.onnx
 *.plan
 *.cache
+*.json
+*.wts
+
 # 忽略文件夹
 __pycache__
 data/MNIST
